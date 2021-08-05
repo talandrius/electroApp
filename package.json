@@ -1,0 +1,15 @@
+{
+  "name": "electron1",
+  "version": "1.0.0",
+  "description": "my first App",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "jm dandria",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.8"
+  }
+}
