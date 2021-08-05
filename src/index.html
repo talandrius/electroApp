@@ -1,0 +1,21 @@
+<!--index.html-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>ma premiere app</title>
+  </head>
+  <body>
+    <div class="mainapp">
+      <div class="topbar">
+        <button id="closeBtn" class="topbtn" title="close"></button>
+      </div>
+    </div>
+    <!-- Vous pouvez également requérir que d’autres fichiers s’exécutent dans ce processus -->
+    <script src="js/functions.js"></script>
+  </body>
+</html>
